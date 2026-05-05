@@ -1,0 +1,678 @@
+@media (max-width:767px){
+
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+   word-wrap: break-word;
+   text-align: justify;
+   word-spacing: -2px;
+}
+img{
+    width: 380px;
+}
+.img2{
+    width: 330px;
+}
+
+}
+
+
+@media (max-width:1023px) and (min-width:768px){
+
+}
+
+
+@media (min-width:1024px){
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+   word-wrap: break-word;
+   text-align: justify;
+   word-spacing: -2px;
+}
+.img2{
+    width: 750px;
+}
+
+.img2{
+    width: 630px;
+}
+ul.horizontal {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+}
+@media (min-width:1280px){
+  /* @import url("./1800_css.css") screen and (min-width: 1800px);
+
+
+@import url("./1200_css.css") screen and (min-width: 1200px);
+
+
+@import url("./500_css.css") screen and (max-width: 600px); */
+
+:root{
+    --blue_color: #1b1d97;
+    --black_color: black;
+    --white_color: white;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'serif';
+    font-size: larger;
+  }
+  
+  .w3-row-padding img {
+    margin-bottom: 12px;
+  }
+  
+  /* Set the width of the sidebar to 120px */
+  .w3-sidebar {
+    width: 120px;
+    background: #222;
+  }
+  
+  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+  #main {
+    margin-left: 120px;
+  }
+  #parent_div_body {
+    position: fixed;
+  }
+  .circular_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--black_color);
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .circular_image img {
+    width: 100%;
+  }
+  
+  /* Fixed sidenav, full height */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a,
+  .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover,
+  .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: var(--blue_color);
+    color: var(--white_color);
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    float: left;
+    height: 100%;
+    overflow: auto;
+    text-rendering: auto;
+    margin-right: 800px;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: var(--black_color);
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar a.active {
+    background-color: var(--blue_color);
+    color: var(--white_color);
+  }
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: var(--white_color);
+  }
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  .Code-snippet {
+    box-sizing: 20px 20px;
+    background-color: rgb(60, 56, 56);
+    color: rgb(188, 13, 13);
+    /* padding: 0 0 10px 10px;
+          margin: 10px 0 10px 0;  */
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 10rem;
+    box-shadow: 0 0 10px rgb(8, 8, 8);
+    padding: 20px 0px 20px 20px;
+    margin: 10px 0px 10px 10px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 10px 10px;
+    box-shadow: 0 0 10px rgb(8, 8, 8);
+  
+    /* border: 1px solid var(--black_color); */
+    /* border-radius: 1em;
+          overflow: hidden; */
+  }
+  tr > td:hover {
+    background-color: rgb(244, 186, 165);
+  }
+  td,
+  th {
+    border: 1px solid var(--black_color);
+    text-align: left;
+    padding-left: 20px;
+  }
+  th {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(156, 153, 153);
+  }
+  .backgroundColor {
+    color: rgb(11, 10, 10) !important;
+    background-color: rgb(245, 239, 245) !important;
+  }
+  .text-color {
+    color: rgb(7, 7, 7) !important;
+  }
+  h1,
+  h2,
+  h3,
+  h5,
+  h4,
+  h6 {
+    font-weight: bolder;
+  }
+  
+  .dropbtn {
+    /* background-color: #4CAF50; */
+    color: rgb(8, 8, 8);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: var(--black_color);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #div2 {
+    width: auto;
+    border: 10px solid var(--white_color);
+    margin-left: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-rendering: auto;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex {
+    display: flex;
+    background-color: var(--blue_color);
+  }
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue_color);
+  }
+  .flex-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: var(--blue_color);
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--blue_color);
+  }
+  .flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--blue_color);
+  }
+  hr {
+    border-top: 1px solid rgb(54, 53, 53);
+  }
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--blue_color);
+  }
+  .flex-nowwrap {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--blue_color);
+  }
+  .flex-wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: var(--blue_color);
+  }
+  .flex-flow {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: var(--blue_color);
+  }
+  .justify-content-center {
+    display: flex;
+    justify-content: center;
+    background-color: var(--blue_color);
+  }
+  .justify-content-flex-start {
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--blue_color);
+  }
+  .justify-content-flex-end {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--blue_color);
+  }
+  .justify-content-space-around {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--blue_color);
+  }
+  .justify-content-space-between {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--blue_color);
+  }
+  .justify-content-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--blue_color);
+  }
+  .align-items-center {
+    background-color: var(--blue_color);
+    display: flex;
+    align-items: center;
+    height: 200px;
+  }
+  .align-items-flex-start {
+    background-color: var(--blue_color);
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+  }
+  .align-flex-end {
+    background-color: var(--blue_color);
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+  }
+  .align-items-stretch {
+    background-color: var(--blue_color);
+    display: flex;
+    align-items: stretch;
+    height: 200px;
+  }
+  .align-items-baseline {
+    background-color: var(--blue_color);
+    display: flex;
+    align-items: baseline;
+    height: 200px;
+  }
+  .align-content-space-between {
+    background-color: var(--blue_color);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 400px;
+  }
+  .align-content-space-around {
+    background-color: var(--blue_color);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 400px;
+  }
+  .align-content-stretch {
+    background-color: var(--blue_color);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 400px;
+  }
+  .align-content-center {
+    background-color: var(--blue_color);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 400px;
+  }
+  .align-content-flex-start {
+    background-color: var(--blue_color);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 400px;
+  }
+  .align-content-flex-end {
+    background-color: var(--blue_color);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 400px;
+  }
+  .perfect-center {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue_color);
+  }
+  a:hover {
+    background-color: #ddd;
+    color: var(--black_color);
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px;
+  }
+  .previous {
+    background-color: #f7647c;
+    color: var(--black_color);
+    border-radius: 15px;
+    border: 2px solid var(--black_color);
+  }
+  .flex-Order {
+    display: flex;
+    align-items: str;
+    background-color: var(--blue_color);
+  }
+  .flex-container1 {
+    display: flex;
+    height: 200px;
+    background-color: var(--blue_color);
+  }
+  .flex-container1 > div {
+    background-color: #efeff4;
+    color: rgb(12, 12, 12);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--blue_color);
+    padding: 5px;
+  }
+  .grid-item {
+    background-color: var(--white_color);
+    border: 1px solid var(--black_color);
+    padding: 20px;
+    font-size: 30px;
+    margin: 3px;
+    text-align: center;
+  }
+  .column-gap {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--blue_color);
+    padding: 5px;
+    column-gap: 50px;
+  }
+  .row-gap {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--blue_color);
+    padding: 5px;
+    row-gap: 50px;
+  }
+  .gap {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--blue_color);
+    padding: 5px;
+    gap: 50px 100px;
+  }
+  .item1c {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .grid-containerline > div {
+    background-color: var(--white_color);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .grid-containerline {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: var(--blue_color);
+    padding: 10px;
+  }
+  .item2r {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .grid-template-columns {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: var(--blue_color);
+    padding: 10px;
+  }
+  .grid-template-columns > div {
+    background-color: var(--white_color);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .grid-template-columns-size {
+    display: grid;
+    grid-template-columns: 80px 200px auto 40px;
+    gap: 10px;
+    background-color: var(--blue_color);
+    padding: 10px;
+  }
+  .grid-template-columns-size > div {
+    background-color: var(--white_color);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .grid-template-rows {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px 200px;
+    gap: 10px;
+    background-color: var(--blue_color);
+    padding: 10px;
+  }
+  .grid-template-rows > div {
+    background-color: var(--white_color);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .grid-item-column {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: var(--blue_color);
+    padding: 10px;
+  }
+  .grid-item-column > div {
+    background-color: var(--white_color);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .item11 {
+    grid-column: 1 / 5;
+  }
+  .item22 {
+    grid-column: 2 / span 3;
+  }
+  
+  .grid-item-row {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: var(--blue_color);
+    padding: 10px;
+  }
+  .grid-item-row > div {
+    background-color: var(--white_color);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .item12 {
+    grid-row: 1 / 4;
+  }
+  .item83 {
+    grid-area: 1 / 2 / 5 / 6;
+  }
+  .animations {
+    background-color: var(--blue_color);
+    color: var(--white_color);
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 35px;
+    border-radius: 10px;
+    width: 20%;
+    height: 6em;
+    margin: 1em;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+  }
+  .animations:hover{
+    width: 50%;
+  }
+  .code_example{
+   margin: 1em;
+   background-color: rgb(54, 51, 51);
+   text-align: left;
+   padding-left: 2rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   border-radius: 0.5rem;
+  }
+  .comment{
+    color: rgb(13, 141, 13);
+  }
+  .property{
+    color: rgb(90, 96, 212);
+  }
+  .colon_semicolon{
+    color: rgb(194, 194, 154);
+  }
+  .property_value{
+    color: rgb(188, 90, 55);
+  }
+    }
+
